@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Technical Test">
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	<test name="Blog Operations">
+		<classes>
+			<class name="LumiraAPIAutomation.PostCall"></class>
+			<class name="LumiraAPIAutomation.DeleteCall"></class>
+			<class name="LumiraAPIAutomation.PutCall"></class>
+			<class name="LumiraAPIAutomation.GetCall"></class>
+		</classes>
+	</test>
+</suite>

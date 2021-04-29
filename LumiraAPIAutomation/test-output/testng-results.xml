@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-29T01:42:49 BST" name="API Technical Test" finished-at="2021-04-29T01:42:51 BST" duration-ms="2366">
+    <groups>
+    </groups>
+    <test started-at="2021-04-29T01:42:49 BST" name="Blog Operations" finished-at="2021-04-29T01:42:51 BST" duration-ms="2366">
+      <class name="LumiraAPIAutomation.PutCall">
+        <test-method signature="test_UpdateBlogCategory()[pri:1, instance:LumiraAPIAutomation.PutCall@5939a379]" started-at="2021-04-29T01:42:51 BST" name="test_UpdateBlogCategory" finished-at="2021-04-29T01:42:51 BST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_UpdateBlogCategory -->
+      </class> <!-- LumiraAPIAutomation.PutCall -->
+      <class name="LumiraAPIAutomation.PostCall">
+        <test-method signature="test_createBlogCategory()[pri:1, instance:LumiraAPIAutomation.PostCall@2beee7ff]" started-at="2021-04-29T01:42:49 BST" name="test_createBlogCategory" finished-at="2021-04-29T01:42:51 BST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createBlogCategory -->
+      </class> <!-- LumiraAPIAutomation.PostCall -->
+      <class name="LumiraAPIAutomation.GetCall">
+        <test-method signature="test_blogCategories()[pri:1, instance:LumiraAPIAutomation.GetCall@e1de817]" started-at="2021-04-29T01:42:51 BST" name="test_blogCategories" finished-at="2021-04-29T01:42:51 BST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_blogCategories -->
+        <test-method signature="test_postsInBlogCategory()[pri:2, instance:LumiraAPIAutomation.GetCall@e1de817]" started-at="2021-04-29T01:42:51 BST" name="test_postsInBlogCategory" finished-at="2021-04-29T01:42:51 BST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_postsInBlogCategory -->
+      </class> <!-- LumiraAPIAutomation.GetCall -->
+      <class name="LumiraAPIAutomation.DeleteCall">
+        <test-method signature="test_deleteBlogCategory()[pri:1, instance:LumiraAPIAutomation.DeleteCall@5136d012]" started-at="2021-04-29T01:42:51 BST" name="test_deleteBlogCategory" finished-at="2021-04-29T01:42:51 BST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteBlogCategory -->
+      </class> <!-- LumiraAPIAutomation.DeleteCall -->
+    </test> <!-- Blog Operations -->
+  </suite> <!-- API Technical Test -->
+</testng-results>
